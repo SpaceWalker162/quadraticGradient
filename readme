@@ -1,0 +1,6 @@
+To run the test script, Python 3 and WolframKernal (Mathematica) are needed. The test script requires WolframKernal because the (true) theoretical values of the linear and quadratic gradients are calculated by WolframKernal.
+The file quadraticGradientTools.py defines functions
+To draw the graphs showing Errors-Iterations and Errors-L/D, run the test script quadraticGradientBPlot.py
+To draw the graphs comparing comparing the estimated radius of curvature and helix angle with the true (theoretical) one, run the test script rotationAnalysisCompute.py and then the script rotationAnalysisPlot.py
+
+To run the algorithm, Python 3 is needed. The function {\it multipointsCalculateGradAndGrad2} defined in quadraticGradientTools.py is the main body of the algorithm and calculates the linear and quadratic gradients of a field.
