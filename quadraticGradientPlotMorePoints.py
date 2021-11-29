@@ -1,27 +1,8 @@
 import numpy as np
-import pandas as pd
-import constants as con
-import cdflib    # see github.com/MAVENSDC/cdflib
-import tarfile
-from datetime import datetime
-from datetime import timedelta
-import os
-import subprocess
 import matplotlib.pyplot as plt
-import seaborn as sns
-from cycler import cycler
-from matplotlib.ticker import FuncFormatter
-import matplotlib.ticker as ticker
-from matplotlib import rcParams
-from itertools import combinations
 import json
-from pprint import pprint
-import tensorflow.nn as nn
-from scipy.signal import butter, lfilter, freqz
 from scipy.optimize import curve_fit
-from pathlib import Path
-from databaseTools import *
-from secondDOfBTools import *
+from quadraticGradientTools import *
 
 def fFit(x, p, a):
     return p/x + a

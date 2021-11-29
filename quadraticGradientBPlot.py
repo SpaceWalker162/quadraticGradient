@@ -20,7 +20,7 @@
 import numpy as np
 import os
 import matplotlib.pyplot as plt
-from secondDOfBTools import *
+from quadraticGradientTools import *
 
 #   Activate Wolfram language session
 wlSession = WolframLanguageSession('/usr/local/Wolfram/Mathematica/12.0/Executables/WolframKernel')

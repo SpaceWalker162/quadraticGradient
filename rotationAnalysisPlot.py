@@ -18,7 +18,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.patches
-from secondDOfBTools import *
+from quadraticGradientTools import *
 
 
 #   Define the path for figure saving
